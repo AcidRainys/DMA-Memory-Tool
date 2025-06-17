@@ -1,9 +1,9 @@
 # DMA Memory Tool
 
-[中文文档](README-CN.md) 
+## [中文文档](README-CN.md) 
 
-DMA (Direct Memory Access) tool
-Utilizes direct memory access technology to obtain the memory data of the target machine process. 
+## DMA (Direct Memory Access) tool 
+* Utilizes direct memory access technology to obtain the memory data of the target machine process. 
 
 ## Functional Features
 - 💾 Process enumeration and memory area dump
@@ -40,7 +40,7 @@ Clone the repository:
 git clone https://github.com/yourusername/DMA-Memory-Tool.git
 ```
 
-project structure
+## Project structure
 ```info
 
 DMA-Memory-Tool/
@@ -57,13 +57,16 @@ DMA-Memory-Tool/
 
 ```
 
-Credits and Acknowledgements
-This project was partially implemented by referring to/using the following resources:
+## Credits and Acknowledgements
+### This project was partially implemented by referring to/using the following resources:
 
-DMALibrary: https://github.com/Metick/DMALibrary
-MemProcFS: https://github.com/ufrisk/MemProcFS
-Dear ImGui: https://github.com/ocornut/imgui
-DumpMemoryFunction: https://github.com/idkfrancis/DMA-ProcessDumper
+* DMALibrary: https://github.com/Metick/DMALibrary
 
-License Agreement
-This project is licensed under the Apache 2.0 license - for details, please refer to the LICENSE file.
+* MemProcFS: https://github.com/ufrisk/MemProcFS
+
+* Dear ImGui: https://github.com/ocornut/imgui
+
+* DumpMemoryFunction: https://github.com/idkfrancis/DMA-ProcessDumper
+
+## License Agreement
+### This project is licensed under the Apache 2.0 license - for details, please refer to the LICENSE file.
