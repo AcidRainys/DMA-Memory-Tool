@@ -1,6 +1,6 @@
 # DMA Memory Tool
 
-![中文文档](README-CN.md) 
+[中文文档](README-CN.md) 
 
 DMA (Direct Memory Access) tool
 Utilizes direct memory access technology to obtain the memory data of the target machine process. 
@@ -13,8 +13,8 @@ Utilizes direct memory access technology to obtain the memory data of the target
 - 🔍 Can be used when you don't have a driver and the target process is protected, making it impossible to dump the memory
 - 🛡️ Security: Uninvasive
 
-![Project screenshot](Image/2025-06-18 015436.png) 
 
+![Project screenshot](https://github.com/AcidRainys/DMA-Memory-Tool/tree/master/Image/2025-06-18 015436.png) 
 ![Project screenshot](Image/2025-06-18 015448.png) 
 
 
