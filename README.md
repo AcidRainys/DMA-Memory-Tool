@@ -13,9 +13,9 @@ Utilizes direct memory access technology to obtain the memory data of the target
 - 🔍 Can be used when you don't have a driver and the target process is protected, making it impossible to dump the memory
 - 🛡️ Security: Uninvasive
 
-![Project screenshot](image/2025-06-18 015436.png) 
+![Project screenshot](Image/2025-06-18 015436.png) 
 
-![Project screenshot](image/2025-06-18 015448.png) 
+![Project screenshot](Image/2025-06-18 015448.png) 
 
 
 ## Technical stack
