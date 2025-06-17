@@ -10,7 +10,7 @@
 - 📊 Visual design and elegant LOG
 
 ## Applicable Scenarios
-- 🔍 Can be used when you don't have a driver and the target process is protected, making it impossible to dump the memory
+- 🔍 When you don't have a driver and the target process is protected (making it impossible to perform memory dump), you can use this method.
 - 🛡️ Security: Uninvasive
 
 
