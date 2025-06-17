@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Memory\InputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Memory\Memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Memory\MemoryModule.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Memory\Registry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Memory\Shellcode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\Hacker\HackTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\misc\freetype\imgui_freetype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\imgui_tables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\display\ImGuiDx11App.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="support\ImGui\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\toolmain\Menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="support\Memory\library\dll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\library\leechcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\library\vmmdll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\InputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\MemoryModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\Registry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\Shellcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Memory\logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\Hacker\HackTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\backends\imgui_impl_win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\imgui_freetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\single_file\imgui_single_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imstb_rectpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imstb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\imstb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\display\ImGuiDx11App.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\ft2build.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftheader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftmodule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftoption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftstdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\integer-types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\mac-support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\public-macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\freetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftadvanc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbdf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbzip2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftchapters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcolor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftdriver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fterrdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fterrors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftfntfmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgasp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftglyph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgxval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgzip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftincrem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlcdfil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlogging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlzw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmodapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmoderr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftotval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftoutln.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftparams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftpfr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftrender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsizes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsnames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftstroke.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsynth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fttrigon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftwinfnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\otsvg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\t1tables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ttnameid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\tttables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\tttags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\toolmain\Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="support\Memory\library\DMALibrary.lib" />
+    <Library Include="support\Memory\library\leechcore.lib" />
+    <Library Include="support\Memory\library\vmm.lib" />
+    <Library Include="support\ImGui\misc\freetype\freetype.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="support\Memory\library\info.db" />
+  </ItemGroup>
+</Project>

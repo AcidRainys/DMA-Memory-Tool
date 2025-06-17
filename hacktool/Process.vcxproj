@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fb5df230-f87a-4d8b-87e2-4f126eb4e813}</ProjectGuid>
+    <RootNamespace>Process</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Platform)\$(Configuration)\Obj</IntDir>
+    <TargetName>hackertool</TargetName>
+    <IncludePath>$(SolutionDir)hacktool\support;$(SolutionDir)hacktool\support\ImGui;$(SolutionDir)hacktool\support\ImGui\misc\freetype;$(SolutionDir)hacktool\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)hacktool\support\ImGui;$(SolutionDir)hacktool\support;$(SolutionDir)hacktool\support\ImGui\misc\freetype;$(SolutionDir)hacktool\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\toolmain\Menu.cpp" />
+    <ClCompile Include="source\display\ImGuiDx11App.cpp" />
+    <ClCompile Include="support\Hacker\HackTools.cpp" />
+    <ClCompile Include="support\ImGui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="support\ImGui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="support\ImGui\imgui.cpp" />
+    <ClCompile Include="support\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="support\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="support\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="support\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="support\ImGui\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="support\ImGui\misc\freetype\imgui_freetype.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="support\Memory\InputManager.cpp" />
+    <ClCompile Include="support\Memory\Memory.cpp" />
+    <ClCompile Include="support\Memory\MemoryModule.c" />
+    <ClCompile Include="support\Memory\Registry.cpp" />
+    <ClCompile Include="support\Memory\Shellcode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\toolmain\Menu.h" />
+    <ClInclude Include="support\Hacker\HackTools.h" />
+    <ClInclude Include="support\ImGui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="support\ImGui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="support\ImGui\imconfig.h" />
+    <ClInclude Include="support\ImGui\imgui.h" />
+    <ClInclude Include="support\ImGui\imgui_internal.h" />
+    <ClInclude Include="support\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="support\ImGui\imstb_textedit.h" />
+    <ClInclude Include="support\ImGui\imstb_truetype.h" />
+    <ClInclude Include="support\ImGui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftconfig.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftheader.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftmodule.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftoption.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\ftstdlib.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\integer-types.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\mac-support.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\config\public-macros.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\freetype.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftadvanc.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbbox.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbdf.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbitmap.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftbzip2.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcache.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftchapters.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcid.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftcolor.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftdriver.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fterrdef.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fterrors.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftfntfmt.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgasp.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftglyph.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgxval.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftgzip.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftimage.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftincrem.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlcdfil.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlist.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlogging.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftlzw.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmac.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmm.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmodapi.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftmoderr.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftotval.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftoutln.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftparams.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftpfr.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftrender.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsizes.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsnames.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftstroke.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsynth.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftsystem.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fttrigon.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\fttypes.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ftwinfnt.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\otsvg.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\t1tables.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\ttnameid.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\tttables.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\freetype\tttags.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\ft2build.h" />
+    <ClInclude Include="support\ImGui\misc\freetype\imgui_freetype.h" />
+    <ClInclude Include="support\ImGui\misc\single_file\imgui_single_file.h" />
+    <ClInclude Include="support\Memory\InputManager.h" />
+    <ClInclude Include="support\Memory\library\dll.h" />
+    <ClInclude Include="support\Memory\library\leechcore.h" />
+    <ClInclude Include="support\Memory\library\vmmdll.h" />
+    <ClInclude Include="support\Memory\logger.h" />
+    <ClInclude Include="support\Memory\Memory.h" />
+    <ClInclude Include="support\Memory\MemoryModule.h" />
+    <ClInclude Include="support\Memory\pch.h" />
+    <ClInclude Include="support\Memory\Registry.h" />
+    <ClInclude Include="support\Memory\Shellcode.h" />
+    <ClInclude Include="support\Memory\structs.h" />
+    <ClInclude Include="source\display\ImGuiDx11App.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="support\ImGui\misc\freetype\freetype.lib" />
+    <Library Include="support\Memory\library\DMALibrary.lib" />
+    <Library Include="support\Memory\library\leechcore.lib" />
+    <Library Include="support\Memory\library\vmm.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="support\Memory\library\info.db" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
