@@ -14,7 +14,11 @@ Utilizes direct memory access technology to obtain the memory data of the target
 - 🛡️ Security: Uninvasive
 
 
+<<<<<<< HEAD
 ![Project screenshot](https://github.com/AcidRainys/DMA-Memory-Tool/tree/master/Image/2025-06-18015436.png) 
+=======
+![Project screenshot](https://github.com/AcidRainys/DMA-Memory-Tool/tree/master/Image/2025-06-18 015436.png) 
+>>>>>>> a8aa670f97a4dba7b0a0fa6f34e31177be22b923
 ![Project screenshot](Image/2025-06-18 015448.png) 
 
 
